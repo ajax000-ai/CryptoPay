@@ -1,7 +1,7 @@
 <?php
 
 $trxadress = "TUz2LvQsWr3wCBdwDGhwAV6FNBADKQ4npH";
-$btcadress = "BBBBBBBBBBBBBBBBB";
+$btcadress = "bc1qwh97vapvptjq3u54ypwytrx3m7ysqf3hczluz7";
 $ethadress = "CCCCCCCCCCCCCCCCC";
 $usdtadress = "DDDDDDDDDDDDDDDDDD";
 ?>
@@ -68,7 +68,7 @@ $usdtadress = "DDDDDDDDDDDDDDDDDD";
 						<div id="CryBody">
 						
 				<script>
-let cryptoType = "TRX";
+let cryptoType = "BTC";
 let amount = 50;
 let SelectedWalletAdress = "<?php echo $btcadress ?>";
 let ApiLink = "http://localhost/s-client/JetCrypto/api.php";
